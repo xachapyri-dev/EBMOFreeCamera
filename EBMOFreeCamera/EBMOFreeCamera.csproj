@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+	  <Company>xachapyri-dev</Company>
+	  <Authors>xachapyri-dev</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\..\EBMOModAPI\EBMO-1.0\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="EBMOModCoreAPI">
+      <HintPath>..\..\..\..\EBMOModAPI\EBMO-1.0\BepInEx\plugins\EBMOModCoreAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\EBMOModAPI\EBMO-1.0\¥üîÄ_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\EBMOModAPI\EBMO-1.0\¥üîÄ_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\..\EBMOModAPI\EBMO-1.0\¥üîÄ_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>..\..\..\..\EBMOModAPI\EBMO-1.0\¥üîÄ_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
